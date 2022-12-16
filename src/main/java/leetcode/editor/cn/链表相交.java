@@ -151,7 +151,7 @@ public class 链表相交 {
     //leetcode submit region end(Prohibit modification and deletion)
     public static class ListNode {
         int val;
-        ListNode next;
+        环形链表II.ListNode next;
 
         ListNode() {
         }
