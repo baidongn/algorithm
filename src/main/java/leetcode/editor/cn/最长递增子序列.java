@@ -68,7 +68,7 @@ public class 最长递增子序列 {
             int result = 0;
 
             for (int i = 0; i < nums.length; i++) {
-                for (int j = 0; j <= i; j++) {
+                for (int j = 0; j < i; j++) {
                     //当前dp[i] 和 dp[j]+1 相比较
                     if (nums[i] > nums[j]) {
                         dp[i] = Math.max(dp[i], dp[j] + 1);
